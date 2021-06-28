@@ -1,0 +1,6 @@
+albumentations
+datasouls_antispoof
+retinaface_pytorch
+fastapi
+python-multipart
+uvicorn
