@@ -22,4 +22,5 @@ async def predict_api(file: UploadFile = File(...), threshold: Optional[float] =
 
     image = read_imagefile(await file.read())
     prediction = predict(image,threshold)
+
     return prediction
